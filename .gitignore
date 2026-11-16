@@ -1,0 +1,35 @@
+# --- Kaggle credentials (never commit) ---
+kaggle.json
+access_token
+.env
+
+# --- Data: always re-downloadable with the Kaggle CLI ---
+# Competition rules usually forbid redistributing the data.
+data/
+*.zip
+*.parquet
+*.feather
+*.h5
+
+# --- Model artifacts and outputs ---
+models/
+submissions/
+*.pkl
+*.joblib
+*.cbm
+*.pt
+*.pth
+catboost_info/
+lightning_logs/
+mlruns/
+
+# --- Python / Jupyter ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db

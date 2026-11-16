@@ -1,0 +1,7 @@
+kaggle>=2.2
+ipykernel
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
