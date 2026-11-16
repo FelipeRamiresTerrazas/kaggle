@@ -1,7 +1,11 @@
 kaggle>=2.2
 ipykernel
+nbclient
 pandas
 numpy
 scikit-learn
 matplotlib
 seaborn
+lightgbm
+xgboost
+catboost

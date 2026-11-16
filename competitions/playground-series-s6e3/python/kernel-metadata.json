@@ -1,0 +1,15 @@
+{
+  "id": "felipeterrazas/s6e3-churn-gbdt-ensemble-python",
+  "title": "S6E3 Churn - GBDT Ensemble (Python)",
+  "code_file": "notebook.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": ["playground-series-s6e3"],
+  "kernel_sources": [],
+  "model_sources": []
+}

@@ -4,6 +4,12 @@ My Kaggle competitions and dataset projects. I build them in VS Code, version th
 
 Profile: [kaggle.com/felipeterrazas](https://www.kaggle.com/felipeterrazas)
 
+## Projects
+
+| Project | Python | R | Best CV AUC |
+|---|---|---|---|
+| [Playground S6E3: Customer Churn](competitions/playground-series-s6e3) | [GBDT ensemble](competitions/playground-series-s6e3/python/notebook.ipynb) | [tidymodels + XGBoost](competitions/playground-series-s6e3/r/notebook.ipynb) | 0.91677 (private LB 0.91547) |
+
 ## Layout
 
 ```
@@ -21,9 +27,13 @@ Data is never committed. Every project can re-download it with the CLI, and comp
 ## Setup
 
 ```bash
+python -m venv .venv
+.venv\Scripts\activate     # Windows
 pip install -r requirements.txt
 kaggle auth login          # opens the browser once; credentials are cached
 ```
+
+R notebooks run locally with [IRkernel](https://github.com/IRkernel/IRkernel). Kaggle no longer accepts R kernels through the API (`Language 'r' is no longer supported`), so R versions are published here on GitHub only.
 
 ## Workflow
 
